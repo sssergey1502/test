@@ -19,7 +19,7 @@ public class Main {
 	
 	public static void setImage(URL url){
 		try {
-			ImageIO.read(url);
+			image =ImageIO.read(url);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
